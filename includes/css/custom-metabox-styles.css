@@ -1,0 +1,38 @@
+/*
+*  Custom meta box styles
+*/
+
+.custom-meta-row{display: block;margin: 20px 0;}
+.cmr-leftalign{box-sizing: border-box;margin-bottom: 20px;position: relative;}
+.custom-meta-row.cmr-leftalign label {margin:0;left: 0;line-height: 35px;font-style: italic;color: #0073AA;text-indent: 5px;}
+.custom-meta-row.cmr-leftalign.cmr-leftalign-long label{width: 200px;}
+.custom-meta-row-half{display: inline-block; width: 49%;vertical-align: top;box-sizing:border-box;}
+.cmr-inner-left{padding-right: 15px;}
+.cmr-inner-right{padding-left: 15px;}
+.custom-meta-row input[type="text"], .custom-meta-row input[type="number"], .custom-meta-row input[type="email"], .custom-meta-row select {width: 100%;box-sizing: border-box;height: 35px;padding: 5px;font-size: 13px;}
+.custom-meta-row h4{font-weight: bold;font-size: 13px;margin: 0 0 10px 0;display: inline-block;vertical-align: top;padding-right: 20px}
+.custom-meta-row label{margin-bottom: 5px;display: block;font-weight: bold;}
+.custom-meta-row table{text-align: left;}
+.custom-meta-row table td:nth-child(1){padding-right: 10px;}
+.cmr-leftalign table th {font-size: 12px;font-weight: normal;line-height: 1;}
+.custom-meta-row table.size-table td{width: 80px;}
+.custom-meta-row table input[type="number"] {height: 30px;margin: 0;}
+.cmr-leftalign input[type="checkbox"]{margin: 10px 0 0 2px;}
+.custom-meta-row textarea{width: 100%;box-sizing: border-box;padding: 5px;font-size: 13px;}
+.cmr-note{padding-left: 5px;max-width: 500px;display: none;}
+.cmr-note.show-cmr-note{display: block;}
+.cmr-note p{background: #F1F1F1;padding: 10px 10px 10px 40px;position: relative;}
+.cmr-note .dashicons{color: #0073AA;position: absolute;left: 12px;top: 10px;}
+.custom-meta-row-inner{display: inline-block;width: 200px;box-sizing:border-box;padding-right: 10px;vertical-align: top;}
+span.time-sep {vertical-align: middle;line-height: 1;}
+input#event_date_from, input#event_date_to {width: 176px;}
+.custom-meta-row-inner small {display: block;font-style: italic;white-space: nowrap;margin-left: 3px;}
+.ui-datepicker .ui-datepicker-calendar td.ui-state-disabled{padding:0.5em;}
+.ui-datepicker .ui-datepicker-calendar td.ui-state-disabled.ui-datepicker-unselectable{color: #BBBBBB;}
+a.ui-datepicker-next.ui-corner-all.ui-state-disabled, a.ui-datepicker-prev.ui-corner-all.ui-state-disabled {color: #BBBBBB;}
+.banner_imghere {position: relative;margin-bottom: 5px;margin-top: 6px;width: 100%;height: auto;min-height:10px;max-width: 100%;border: 2px solid transparent;box-sizing:border-box;display: inline-block;}
+.banner_galimg {width: auto;height:auto;margin-top:-2px;margin-left: -2px;max-width:100%;background-position: left top;background-size: cover;}
+.banner_imghere.banner_imgborder{border:2px dashed #EEEEEE;min-height:150px;}
+img.imgfeat {width: auto;max-width: 100%;height: auto;}
+span.cpt-del-img {position: absolute;top: 8px;right: 8px;width: 25px;height: 25px;background: rgba(0, 0, 0, 0.8);text-align: center;line-height: 25px;color: #FFFFFF;cursor: pointer;}
+.imgfeatnote{display: block;margin-bottom: 15px;font-size: 12px;}
